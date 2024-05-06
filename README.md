@@ -1,9 +1,9 @@
-# JPA-with-mySQL
-#other method
+#Delete method
+
 
 
 
     @Override
     public void deleteUserData(Long id) {
-         userRepository.deleteById(id);
+         repo.deleteById(id);
     }
