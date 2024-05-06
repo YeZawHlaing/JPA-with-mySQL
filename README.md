@@ -1,5 +1,5 @@
 # JPA-with-mySQL
-# POst,PUT,Delete
+#other method
 @Override
     public UserEntity saveUserData(UserEntity userEntity) {
      return userRepository.save(userEntity);
